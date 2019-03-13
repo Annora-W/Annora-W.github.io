@@ -2,15 +2,36 @@
 <head>  
 	<meta charset="UTF-8"/>
     <title>鲁迅简介</title>  
+	<style type = "text/css">
+		body{
+			background:#0c7fc2 url(login/images/bg.jpg);/* 加载背景图 */
+			font:12px/1.5 Microsoft YaHei;			
+			/* 背景图垂直、水平均居中 */
+			background-position: center center;
+			/* 背景图不平铺 */
+			background-repeat: no-repeat;
+			/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+			background-attachment: fixed;
+			/* 让背景图基于容器大小伸缩 */
+			background-size: cover;
+		}
+		table{
+			margin-top:20px;
+			background-color:#FFF;
+　　		filter:alpha(opacity=70); /*支持 IE 浏览器*/
+			-moz-opacity:0.70; /*支持 FireFox 浏览器*/
+			opacity:0.70; /*支持 Chrome, Opera, Safari 等浏览器*/			
+		}
+	</style>
 </head>  
 <body>  
     <form action="DoFormAction.htm">  
         <fieldset style="width=800px"> <!--套住注册表格的边框-->  
-        <legend align="center">人物简历</legend>  
+        <legend align="center" style="font-size:20px">人物简历</legend>  
         <table cellspacing="0px" cellpadding="6px" border="1px" bordercolor="black" align="center" width="1000px">  
         
             <tr>  
-                <td align="center" colspan="5" style="background-color:rgb(255,204,51)">  
+                <td align="center" colspan="5" style="background-color:#69bcf3">  
                     基本资料
                 </td>  
             </tr> 
@@ -109,7 +130,7 @@
                 </tr>           
            
             <tr>  
-                <td align="center" colspan="5" style="background-color:rgb(255,204,51)">  
+                <td align="center" colspan="5" style="background-color:#69bcf3">  
                     人物评价
                 </td>  
             </tr>     
