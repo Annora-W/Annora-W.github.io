@@ -1,0 +1,146 @@
+/*-----------------------------全局样式-------------------------------------*/
+*{
+	margin:0;
+	padding:0
+}
+li{
+	list-style:none
+}
+img{
+	vertical-align:top;
+	border:none
+}
+legend{
+	display:none
+}
+fieldset{
+	border:none
+}
+a{
+	text-decoration:none
+}
+a:hover,a:active{
+	text-decoration:none
+}
+/*-----------------------------登录页面-------------------------------------*/
+body{
+	font:12px/1.5 Microsoft YaHei;
+	position:relative;
+	margin:0 auto;
+	color:#000
+}
+#container{
+	width:1038px;
+	box-shadow: 0 0 15px #999999;
+	margin: 0 auto;
+	overflow-x: hidden;
+	position: relative;
+}
+.login{
+	/*background-color:green;*/
+	background:#0c7fc2 url(../images/bg2.jpg) no-repeat center top ;
+	height:581px;	
+}
+.login_hd{
+	background:url(../images/logo.png) no-repeat;
+	margin: 0 auto;
+	width:231px;
+	height:136px;
+}
+.login_main{
+	position:relative; 
+	background-color:red;
+	background:url(../images/login_bg.png) no-repeat;/**/
+	margin:15 auto;
+	width:336px;
+	height:321px;
+}
+.login_form{
+	/*background-color:yellow;*/
+	width:180px;
+	height:321px;
+	margin:0 auto;
+	color:#000101; 
+}
+.username{
+	/*background-color:red;*/
+	height:70px;
+	margin:50px 0px 13px
+}
+.password{
+	/*background-color:blue;*/
+	height:70px;
+	margin:-25px 0px 10px;
+}
+.username input,.password input{
+	width:135px;
+	height:25px;
+	border:0;
+	color:#999;
+	font-size:14px;
+	line-height:32px
+}
+.username input{
+	position:absolute; 
+	top:89px; 
+	left:115px; 
+}
+.password input{
+	position:absolute; 
+	top:128px; 
+	left:115px; 
+}
+.login_btn{
+	text-align:center;
+	height:42px;
+	margin:0;
+	position:absolute; 
+	top:195px;
+	left:80px; 
+}
+.login_btn input{
+	background:url(../images/login_btn.png) no-repeat;
+	border:0;
+	width:165px;
+	height:32px;
+	cursor:pointer;
+	text-indent:-9999px;*text-indent:0;*line-height:9999px;
+	overflow:hidden
+}
+.guest{
+	float:left;
+	margin:0px 20px 0;
+	height:30px;
+	font-size:14px;
+	position:absolute; 
+	top:200px; 
+	left:0px; 
+	width:350px;
+	text-align:center;
+	color:#f00
+}
+.guest a{
+	color:#0101ff
+}
+.forget{
+	float:right;
+	margin:0px 20px 0;
+	height:30px;
+	font-size:14px;
+	position:absolute;
+	top:175px;
+	left:250px;
+}
+.forget a{
+	color:#ff0000
+}
+.first{
+	float:right;
+	margin:10px 0px 0;
+	width:350px;
+	height:50px;
+	color:#fff;
+	position:absolute; 
+	top:230px; 
+	left:40px;
+}
