@@ -10,3 +10,8 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+
+application/.htaccess.bak
+application/.htaccess
+application/querystatistics/view/user_not_update/index.html~dev
