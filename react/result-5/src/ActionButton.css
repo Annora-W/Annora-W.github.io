@@ -1,0 +1,29 @@
+.button {
+  background-image: none;
+  display: inline-block;
+  user-select: none;
+  touch-action: manipulation;
+  border: none;
+  background: transparent;
+  font-size: calc(24px + 2vmin);
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  margin: 0 20px;
+}
+
+.heart-button {
+  color: #ff4033;
+}
+
+.sad-button {
+  color: #515151;
+}
+
+.button:active,
+.button:focus {
+  outline: 0;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}

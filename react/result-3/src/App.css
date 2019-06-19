@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s ease-in-out;
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 48px;
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(16px + 2vmin);
+  color: #222;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  background-image: none;
+  display: inline-block;
+  user-select: none;
+  touch-action: manipulation;
+  border: none;
+  background: transparent;
+  font-size: calc(24px + 2vmin);
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645, .045, .355, 1);
+  margin: 0 20px;
+}
+
+.heart-button {
+  color: #ff4033;
+}
+
+.sad-button {
+  color: #515151;
+}
+
+.button:active,
+.button:focus {
+  outline: 0;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
