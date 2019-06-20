@@ -1,0 +1,27 @@
+---------------------------------------------------------------
+[ 2019-04-19T14:31:55+08:00 ] 0.0.0.0 GET localhost/tp5/train/train/public/
+[运行时间：0.053378s] [吞吐率：18.73req/s] [内存消耗：1,647.67kb] [文件加载：38]
+[ info ] [ LANG ] D:\xampp\htdocs\tp5\train\train\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'cookie' => '_ga=GA1.1.1873880775.1554719323; Phpstorm-3f19845c=6b1d58cc-e564-4a4f-9500-e2f59d1046ca; _gid=GA1.1.462376305.1555597601; pgv_pvi=3128323072; pgv_si=s5650936832',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\tp5\train\train\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
